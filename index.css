@@ -1,0 +1,139 @@
+*{
+    margin:0px;
+    padding:0px
+}
+/**  top - navigation in the header **/
+.nav-bar li{
+   
+    list-style-type: none;
+    float: left;
+}
+.nav-bar li a{
+    padding:10px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: arial;
+    color:pink;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.nav-bar li a:hover{
+    background-color: pink;
+    color:black;
+    padding:6px;
+    border-radius: 4px;
+
+
+}
+.nav-bar li a:active{
+    background-color:brown;
+}
+.nav-bar{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right:20px;
+}
+/** styles for search box in the header **/
+.search-box input{
+    background-color: pink;
+   border-style: 2px solid;
+   border-color: black;
+   height:30px;
+   border-radius:4px;
+   color:black;
+}
+/** styles for the header logo **/
+.logo{
+    margin-left: 20px;
+    padding-right: 20px;
+   
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+.nav-bar li a img{
+    height:20px;
+    width:20px;
+}
+/** Overall header styles **/
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-top: 20px;
+    display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   background-color: black;
+}
+img{
+    width:100%
+}
+/** styles for the item divs found in the product container div**/
+.item img{
+    width:200px;
+    height:200px;
+    border-radius: 4px;
+}
+/** main div container in the body **/
+.products{
+    gap:10px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+/** level one heading in the footer **/
+h1{
+    font-family: arial;
+    padding:10px;
+    color:pink;
+}
+/** nav bar in the footer **/
+.nav{
+    column-count: 2;
+}
+.nav li{
+    list-style-type: none;
+}
+.nav li a{
+    padding: 16px;
+    color:black;
+    text-decoration: none;
+    font-family: arial;
+}
+.nav li a:hover{
+    color:pink;
+}
+.nav h2{
+    padding:16px;
+    color:pink;
+    font-family: arial;
+}
+/** Main footer styles **/
+.footer{
+    text-align: justify;
+    padding-top: 25px;
+}
+.footer p{
+    padding: 16px;
+}
+/** items styles found in the main product div **/
+.item button{
+    font-weight: bold;
+    box-shadow: 0px 1px 1px 0px #444;
+    border-style: none;
+    border-radius: 4px;
+    height:30px;
+    width:130px;
+    background-color: black;
+    color:pink;
+}
+.item button:hover{
+    background: linear-gradient(135deg,violet,pink);
+    color:black;
+}
+.item p{
+    padding: 6px;
+}
+

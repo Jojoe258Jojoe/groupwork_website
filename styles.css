@@ -1,0 +1,339 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.logo img{
+width:70px;
+height:50px;
+padding:6px;
+border-radius:15px;
+}
+.nav-bar li{
+list-style-type: none;
+}
+.nav-bar li a{
+    text-decoration: none;
+    font-family: arial;
+    font-weight:bold;
+    color:black;
+    float:left;
+    padding:6px;
+}
+.nav-bar li a:hover{
+    color:white;
+}
+.header{
+    position:sticky;
+    top:0px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display:grid;
+    box-shadow:0px 2px 4px 0px #444;
+    background-color:pink;
+}
+.logo{
+    grid-column:1;
+}
+.nav-bar{
+    grid-column:3;
+    padding:10px;
+}
+.search{
+    grid-column: 2;
+    padding-top:25px;
+}
+.search input{
+    width:auto;
+    height:25px;
+    background-color:pink;
+    border:2px solid black;
+    border-radius:4px;
+}
+.search button{
+    width:50px;
+    height:25px;
+    background-color: black;
+    color:pink;
+    border-style: none;
+    border-radius:4px;
+}
+.cover img{
+    width:100%;
+    height:170px;
+    padding-bottom:20px;
+}
+.products .items img{
+    width:150px;
+    height:150px;
+    border-radius:4px;
+}
+.products{
+    padding: 10px;
+    grid-gap:10px;
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+}
+.items{
+    padding:10px;
+    border-radius:4px;
+    box-shadow: 0px 0px 8px 2px #444;
+}
+.items h3{
+    color:pink;
+    font-family: arial;
+}
+.items button{
+    width:100px;
+    height:25px;
+    background-color:black;
+    border-style: none;
+    border-radius: 4px;
+    color:pink;
+}
+.items button:hover{
+    background-color: pink;
+    color:black;
+}
+.items h4{
+    padding-bottom:6px;
+    font-family: monospace;
+}
+h2{
+    font-family: arial;
+    padding:20px;
+}
+.cate{
+    display:block;
+    position:fixed;
+    background-color: black;
+    width:0;
+    top:0;
+    left:0;
+    height:100%;
+    z-index: 1;
+    transition-duration: 0.3s;
+}
+.cate li{
+    list-style-type: none;
+}
+.cate li a{
+    text-decoration: none;
+    color:pink;
+    font-family: arial;
+
+}
+.shoes{
+    grid-gap:10px;
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+}
+.men1{
+    grid-column:1;
+    padding:10px;
+}
+.women1{
+    grid-column:2;
+    padding:10px;
+}
+.men1 img{
+    width:120px;
+    height:120px;
+    border-radius: 4px;
+}
+.women1 img{
+    width:120px;
+    height:120px;
+    border-radius: 4px;
+}
+.shoes h1{
+    font-family: arial;
+    color: pink;
+    text-align: center;
+}
+.shoes{
+    width:300px;
+    grid-column: 1;
+    box-shadow: 0px 0px 8px 2px #444;
+}
+.clothes{
+    grid-gap:10px;
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+}
+.men2{
+    grid-column:1;
+    padding:10px;
+}
+.women2{
+    grid-column:2;
+    padding:10px;
+}
+.men2 img{
+    width:120px;
+    height:120px;
+    border-radius: 4px;
+}
+.women2 img{
+    width:120px;
+    height:120px;
+    border-radius: 4px;
+}
+.clothes h1{
+    text-align: center;
+    font-family:arial;
+    color: pink;
+}
+.clothes{
+    box-shadow: 0px 0px 8px 2px #444;
+    grid-column: 2;
+    width:300px;
+    padding:16px ;
+}
+.categories{
+    padding :16px;
+    grid-gap:10px;
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+}
+.links{
+    column-count:2 ;
+    background-color: black;
+    text-align: center;
+}
+footer h2{
+    padding-top: 40px;
+    color:white;
+}
+.links li{
+    list-style-type: none;
+    }
+    .links li a{
+        text-decoration: none;
+        font-family: arial;
+        font-weight:bold;
+        color:pink;
+        float:left;
+        padding:6px;
+    }
+    .links li a:hover{
+        color:white;
+    }
+    footer{
+        background-color: black;
+        padding:17px;
+    }
+    footer h3{
+        color:white;
+        font-family: arial;
+        text-align: center;
+        padding-bottom: 40px;
+        padding-top: 20px;
+    }
+    .form{
+        margin-bottom: 150px;
+        margin-top: 150px;
+        margin-left: 150px;
+        text-align: center;
+        background-color: black;
+        width:300px;
+        border-radius: 7px;
+    }
+    .form input{
+        color:pink;
+        background: none;
+        text-align: center;
+        margin-top: 20px;
+        height:35px;
+        border-radius: 4px;
+        border:2px solid pink;
+    }
+    .form button{
+        font-weight: bold;
+        color: white;
+        background-color:black;
+        height:30px;
+        width:100px;
+        margin-top: 20px;
+        border-radius: 4px;
+        border:2px solid pink;
+    }
+    .form button:hover{
+        background-color: pink;
+        color: white;
+    }
+    .form p{
+        font-family: arial;
+        padding-top: 10px;
+        color: white;
+        padding-bottom: 40px;
+    }
+    .form p a{
+        text-decoration: none;
+        color:pink;
+        font-weight: bold;
+    }
+    .form p a:hover{
+        color:white;
+    }
+    .form h2{
+        color:white;
+        font-family: arial;
+        padding-top: 30px;
+    }
+    .form img{
+        width: 100px;
+        height: 100px;
+        padding-top: 20px;
+    }
+    .trending .items img{
+        width:150px;
+        height:150px;
+        border-radius:4px;
+    }
+    .trending{
+        padding: 10px;
+        grid-gap:10px;
+        display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+    }
+    .female .items img{
+        width:150px;
+        height:150px;
+        border-radius:4px;
+    }
+    .female{
+        padding:10px;
+        grid-gap:10px;
+        display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+    }
+    .male .items img{
+        width:150px;
+        height:150px;
+        border-radius:4px;
+    }
+    .male{
+        padding: 10px;
+        grid-gap:10px;
+        display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+    }
+    .load button{
+        margin-top: 16px;
+        border-style: none;
+        background-color: pink;
+        color:black;
+        font-weight: bold;
+        border-radius: 4px;
+        box-shadow: 0px 0px 4px 2px #444;
+        width: 100px;
+        height: 30px;
+    }
+    .load button:hover{
+        background-color: black;
+        color: pink;
+    }
+    .load{
+        text-align: center;
+    }

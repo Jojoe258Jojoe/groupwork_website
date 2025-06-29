@@ -1,0 +1,146 @@
+body{
+    
+    border-radius: 5px;
+ }
+ a{
+    text-decoration: none;
+    display: inline-block;
+ }
+ .mob-money, .bank, .binance{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+ }
+ .mtn, .air, .stanbic, .bitcoin{
+    background-color: white;
+    width: 95%;
+    margin: 2px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+ }
+ .mtn p, .air p, .stanbic p, .bitcoin p{
+    color: black;
+    display: block;
+    margin-left: 5px;
+    font-weight: bold;
+    width: 100%;
+ }
+ .mtn img, .air img, .stanbic img, .bitcoin img{
+    width: 35px;
+    height: 35px;
+    margin-left: 3px;
+    border-radius: 4px;
+    margin-left: 3px;
+ }
+ h3{
+    display: inline-block;
+    font-family: arial;
+ }
+ .mtn:hover, .air:hover, .stanbic:hover, .bitcoin:hover{
+    color: red;
+    background-color: pink;
+ }
+ h1,h2{
+   font-family: arial;
+   padding-left: 20px;
+ }
+ .nav-bar li{
+   
+   list-style-type: none;
+   float: left;
+}
+.nav-bar li a{
+   padding:10px;
+   font-weight: bold;
+   text-decoration: none;
+   font-family: arial;
+   color:pink;
+   display: flex;
+   flex-wrap: nowrap;
+}
+.nav-bar li a:hover{
+   background-color: pink;
+   color:black;
+   padding:6px;
+   border-radius: 4px;
+
+
+}
+.nav-bar li a:active{
+   background-color:brown;
+}
+.nav-bar{
+   margin-top: 5px;
+   margin-bottom: 5px;
+   margin-right:20px;
+}
+
+.search-box input{
+   background-color: pink;
+  border-style: 2px solid;
+  border-color: black;
+  height:30px;
+  border-radius:4px;
+  color:black;
+}
+.logo{
+   margin-left: 20px;
+   padding-right: 20px;
+  
+}
+.logo img{
+   height: 50px;
+   width: 50px;
+}
+.nav-bar li a img{
+   height:20px;
+   width:20px;
+}
+.header{
+   position: sticky;
+   top: 0;
+   z-index: 1000;
+   margin-top: 20px;
+   display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+h1{
+   font-family: arial;
+   padding:10px;
+}
+.nav{
+   column-count: 2;
+}
+.nav li{
+   list-style-type: none;
+}
+.nav li a{
+   padding: 16px;
+   color:black;
+   text-decoration: none;
+   font-family: arial;
+}
+.nav li a:hover{
+   color:pink;
+}
+.nav h2{
+   padding:16px;
+   color:pink;
+   font-family: arial;
+}
+.footer{
+   text-align: justify;
+   padding-top: 25px;
+}
+.footer p{
+   padding: 16px;
+}

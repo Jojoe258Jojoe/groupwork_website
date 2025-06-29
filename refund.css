@@ -1,0 +1,178 @@
+body{
+    background-color: pink;
+    padding-left: 50px;
+}
+
+.x{
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding: opx;
+    margin: 10px;
+    font-family: arial;
+    
+}
+.y{
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding: opx;
+    margin: 10px;
+    font-family: arial;
+    
+}
+.z{
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding: opx;
+    margin: 10px;
+    font-family: arial;
+    
+}
+.a{
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding: opx;
+    margin: 10px;
+    font-family: arial;
+    
+}
+.b{
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding: opx;
+    margin: 10px;
+    font-family: arial;
+}  
+
+.link{
+    color: white;
+    border-radius: 2px;
+    background-color: blueviolet;
+    border: none; 
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover, a:hover{
+    background: linear-gradient(135deg, orange, green 100%);
+	color: white;
+}
+
+.active{
+    color: white;
+    border-radius: 2px;
+    background-color: orange;
+    border: none; 
+}
+
+.active:hover, a:hover{
+    background: linear-gradient(135deg, orange, green 100%);
+	color: white;
+}
+.item{
+    color: white;
+}
+.nav-bar li{
+   
+    list-style-type: none;
+    float: left;
+}
+.nav-bar li a{
+    padding:10px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: arial;
+    color:pink;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.nav-bar li a:hover{
+    background-color: pink;
+    color:black;
+    padding:6px;
+    border-radius: 4px;
+
+
+}
+.nav-bar li a:active{
+    background-color:brown;
+}
+.nav-bar{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right:20px;
+}
+
+.search-box input{
+    background-color: pink;
+   border-style: 2px solid;
+   border-color: black;
+   height:30px;
+   border-radius:4px;
+   color:black;
+}
+.logo{
+    margin-left: 20px;
+    padding-right: 20px;
+   
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+.nav-bar li a img{
+    height:20px;
+    width:20px;
+}
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-top: 20px;
+    display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   background-color: black;
+}
+h2{
+    color: black;
+    font-family: arial;
+    opacity: 0.5;
+}
+.nav{
+    column-count: 2;
+}
+.nav li{
+    list-style-type: none;
+}
+.nav li a{
+    padding: 16px;
+    color:black;
+    text-decoration: none;
+    font-family: arial;
+}
+.nav li a:hover{
+    color:pink;
+}
+.nav h2{
+    padding:16px;
+    opacity: 0.5;
+    color:black;
+    font-family: arial;
+}
+.footer{
+    text-align: justify;
+    padding-top: 25px;
+}
+.footer p{
+    padding: 16px;
+}

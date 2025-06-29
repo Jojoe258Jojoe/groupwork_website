@@ -1,0 +1,266 @@
+*{
+    margin:0px;
+    padding:0px
+}
+body {
+    background-color: pink;
+    color: white;
+    /*height: 100vh;
+    align-items: center;
+    /*overflow: hidden;*/
+    box-shadow: 10px 10px 10px;
+    padding: 50px;
+    margin:50px
+
+}
+.animated_text {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-size: 4em;
+    letter-spacing: 15px;
+    color: #0de374;
+    line-height: 0.7em;
+    text-transform: uppercase;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,rgb(0,0,0,0.5));
+    animation: animal 4s linear infinite;
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 10px 10px 10px;
+}
+
+@keyframes animal {
+    0%{
+        color: aqua;
+    }
+    50%{
+        color: #0de374;
+    }
+    100%{
+        color: rgb(13, 0, 255);
+    }
+}
+.products{
+    gap:10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    cursor: pointer;
+}
+
+
+.prod img {
+    height: 200px;
+    width: 200px;
+    transition: all ease-out 0.5s;
+    object-fit: cover;
+}
+
+.prod img:hover {
+    width: 100%;
+    object-fit: cover;
+}
+
+/*.products{
+    gap:10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    cursor: pointer;
+}
+
+
+.prod img {
+    height: 50%;
+    width: 50%;
+    transition: all ease-out 0.5s;
+    object-fit: cover;
+   
+}
+.prod img:hover {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    
+    
+}*/
+
+.prod button {
+    color: rgb(48, 216, 225);
+    background-color: black;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px white;
+}
+.prod button:hover{
+    color: white;
+    transition: 0.15s;
+}
+.prod button:active{
+    background-color: blue ;
+    box-shadow: 10px 10px 10px;
+}
+.products{
+    gap:4px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    cursor: pointer;
+}
+
+h1{
+    font-family: arial;
+    padding:10px;
+}
+
+.nav{
+    column-count: 2;
+}
+
+.nav li{
+    list-style-type: none;
+}
+
+.nav li a{
+    padding: 16px;
+    color:black;
+    text-decoration: none;
+    font-family: arial;
+}
+
+.nav li a:hover{
+    color: white;
+}
+
+.nav h2{
+    padding:16px;
+    color:pink;
+    font-family: arial;
+}
+
+.footer{
+    text-align: justify;
+    padding-top: 25px;
+}
+
+.footer p{
+    padding: 16px;
+}
+
+.nav-bar li{
+   
+    list-style-type: none;
+    float: left;
+}
+
+.nav-bar li a{
+    padding:10px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: arial;
+    color:pink;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.nav-bar li a:hover{
+    background-color: pink;
+    color:black;
+    padding:6px;
+    border-radius: 4px;
+}
+
+.nav-bar li a:active{
+    background-color:brown;
+}
+
+.nav-bar{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right:20px;
+}
+
+.search-box input{
+    background-color: pink;
+   border-style: 2px solid;
+   border-color: black;
+   height:30px;
+   border-radius:4px;
+   color:black;
+}
+
+.logo{
+    margin-left: 20px;
+    padding-right: 20px;
+   
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+
+.nav-bar li a img{
+    height:20px;
+    width:20px;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   background-color: black;
+}
+
+.prod button{
+    font-weight: bold;
+    box-shadow: 0px 1px 1px 0px #444;
+    border-style: none;
+    border-radius: 4px;
+    height:30px;
+    width:130px;
+    background-color: black;
+    color:pink;
+}
+
+.prod button:hover{
+    background: linear-gradient(135deg,violet,pink);
+    color:black;
+}
+
+.prod p{
+    padding: 6px;
+}
+
+.prod img{
+    width:200px;
+    height:200px;
+    border-radius: 4px;
+}
+
+.animated_img {
+    width: 50%;
+    height: 50%;
+    justify-content: space-between;
+    display: flex; 
+}
+
+.animated_img img {
+    width: 14%;
+    height: 14%;
+    object-fit: cover;
+    transition: all ease-in-out 0.5s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.animated_img img:hover {
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+    transition: all ease-out 0.5s;
+}
